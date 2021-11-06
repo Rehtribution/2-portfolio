@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --bg: darkred;
+    --nav: gold;
+    --font: darkblue;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/*navbar style*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: var(--bg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: var(--font);
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li a{
+    
+}
+.navbar .menu li a{
+    list-style: none;
+    display: inline-block;
+    color: var(--nav);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
