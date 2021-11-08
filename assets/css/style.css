@@ -7,14 +7,12 @@
 
 :root {
     --bg: darkred;
-    --nav: gold;
-    --font: rgb(10, 233, 22);
+    --nav: darkblue;
+    --font: gold;
 }
 
-.max-width{
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
+body {
+    background-color: var(--bg);
 }
 
 /*header style start*/
@@ -35,7 +33,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--nav);
+    color: var(--font);
 }
 
 header nav {
@@ -65,7 +63,7 @@ header nav ul li a {
     overflow: auto;
     width: 900px;
     margin: 0 auto 30px auto;
-    background: var(--bg);
+    background: var(--nav);
     color: var(--font);
 }
 
