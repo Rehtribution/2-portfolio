@@ -17,40 +17,25 @@
     margin: auto;
 }
 
-/*navbar style*/
+/*header style start*/
 
 
-.header{
-    position: relative;
-    width: 100%;
-    padding: 15px 0;
-    background: var(--bg);
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+header {
+    padding: 20px 35px;
+    background-color: var(--bg);
 }
-
-
-.header ul li a{
-    list-style: none;
-    display: inline;
-    color: var(--nav);
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-}
-
-
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--font);
+    color: --font
     margin: 0;
     display: inline;
 }
 
 header a {
     text-decoration: none;
-    color: var(--font);
+    color: var(--nav);
 }
 
 header nav {
@@ -67,7 +52,10 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/*header end*/
 
+
+/* bio section start*/
 
 .bio {
     text-align: center;
