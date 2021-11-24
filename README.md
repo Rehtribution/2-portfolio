@@ -32,3 +32,10 @@ https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_image_link
 https://stackoverflow.com/questions/3139811/how-to-link-an-image-and-target-a-new-window
 
 https://www.google.com/maps?ll=44.244428,7.769521&z=16&t=m&hl=en&gl=US&mapclient=embed&cid=11499227425411408751
+
+https://giphy.com/
+
+
+### Special thanks
+
+Anthony from the tutoring resources for helping with the compatibiliy media query assistance.
